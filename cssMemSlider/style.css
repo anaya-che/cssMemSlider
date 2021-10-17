@@ -1,9 +1,6 @@
 body {
     background: #659DB3;
-}
-
-header {
-    height: 5vh;
+    font-size: 11pt;
 }
   
 .main-wrapper {
@@ -58,7 +55,6 @@ img {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-area: dots;
-    width: 21vh;
     align-items: center;
     justify-items: end;
     justify-self: end;
@@ -192,14 +188,8 @@ img {
   background: transparent;
 }
 
-
-
 @media only screen and (max-width: 1200px) {
 
-    header {
-        height: 1vh;
-    }
-    
     .slider-wrapper {
         grid-template: 
             'images'
@@ -293,7 +283,6 @@ img {
 
     .dots-wrapper {
         justify-content: center;
-        width: 25vw;
         justify-items: center;
         justify-self: center;
     }
