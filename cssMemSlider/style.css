@@ -114,3 +114,81 @@ img {
     font-size: 1.25em;
     transition: all 0.5s ease-out;
 }
+
+#slide1:checked ~ .slider-wrapper .slider-images {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .slider-wrapper .slider-images {
+    margin-left: -75vh;
+}
+
+#slide3:checked ~ .slider-wrapper .slider-images {
+    margin-left: -150vh;
+}
+
+#slide4:checked ~ .slider-wrapper .slider-images {
+    margin-left: -225vh;
+}
+
+#slide5:checked ~ .slider-wrapper .slider-images {
+    margin-left: -300vh;
+}
+
+#slide6:checked ~ .slider-wrapper .slider-images {
+    margin-left: -375vh;
+}
+
+#slide7:checked ~ .slider-wrapper .slider-images {
+    margin-left: -450vh;
+}
+
+#slide8:checked ~ .slider-wrapper .slider-images {
+    margin-left: -525vh;
+}
+
+
+#slide1:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -50vh;
+}
+
+#slide3:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -100vh;
+}
+
+#slide4:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -150vh;
+}
+
+#slide5:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -200vh;
+}
+
+#slide6:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -250vh;
+}
+
+#slide7:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -300vh;
+}
+
+#slide8:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+    margin-left: -350vh;
+}
+
+
+#slide1:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(1) .dot,
+#slide2:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(2) .dot,
+#slide3:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(3) .dot,
+#slide4:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(4) .dot,
+#slide5:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(5) .dot,
+#slide6:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(6) .dot,
+#slide7:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(7) .dot,
+#slide8:checked ~ .slider-wrapper .dots-wrapper .label-dot:nth-child(8) .dot {
+  background: transparent;
+}
+
