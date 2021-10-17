@@ -192,3 +192,122 @@ img {
   background: transparent;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    header {
+        height: 1vh;
+    }
+    
+    .slider-wrapper {
+        grid-template: 
+            'images'
+            'dots'
+            'texts';
+        width: 75vw;
+        padding: 3vw 5vw;
+    }
+
+    .slider-images-wrapper {
+        width: 75vw;
+
+    }
+    
+    .slider-images {
+        width: 600vw;
+    }
+    
+    .slide {
+        height: 75vw;
+    }
+      
+    img {
+        width: 75vw;
+        height: 75vw;
+    }
+    
+    #slide1:checked ~ .slider-wrapper .slider-images {
+        margin-left: 0;
+    }
+    
+    #slide2:checked ~ .slider-wrapper .slider-images {
+        margin-left: -75vw;
+    }
+    
+    #slide3:checked ~ .slider-wrapper .slider-images {
+        margin-left: -150vw;
+    }
+    
+    #slide4:checked ~ .slider-wrapper .slider-images {
+        margin-left: -225vw;
+    }
+    
+    #slide5:checked ~ .slider-wrapper .slider-images {
+        margin-left: -300vw;
+    }
+    
+    #slide6:checked ~ .slider-wrapper .slider-images {
+        margin-left: -375vw;
+    }
+    
+    #slide7:checked ~ .slider-wrapper .slider-images {
+        margin-left: -450vw;
+    }
+    
+    #slide8:checked ~ .slider-wrapper .slider-images {
+        margin-left: -525vw;
+    }
+    
+    #slide1:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: 0;
+    }
+    
+    #slide2:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -75vw;
+    }
+    
+    #slide3:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -150vw;
+    }
+    
+    #slide4:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -225vw;
+    }
+    
+    #slide5:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -300vw;
+    }
+    
+    #slide6:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -375vw;
+    }
+    
+    #slide7:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -450vw;
+    }
+    
+    #slide8:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
+        margin-left: -525vw;
+    }
+
+    .dots-wrapper {
+        justify-content: center;
+        width: 25vw;
+        justify-items: center;
+        justify-self: center;
+    }
+
+    .text-wrapper {
+        width: 75vw;
+        overflow: hidden;
+    }
+    
+    .text-inner-wrapper {
+        width: 600vw;
+    }
+    
+    .text {
+        width: 75vw;
+        font-size: 1em;
+    }
+
+}
