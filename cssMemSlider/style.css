@@ -192,6 +192,8 @@ img {
   background: transparent;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
 
     header {
@@ -256,7 +258,7 @@ img {
     #slide8:checked ~ .slider-wrapper .slider-images {
         margin-left: -525vw;
     }
-    
+
     #slide1:checked ~ .slider-wrapper .text-wrapper .text-inner-wrapper {
         margin-left: 0;
     }
@@ -308,6 +310,25 @@ img {
     .text {
         width: 75vw;
         font-size: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .text {
+        font-size: 0.8em;
+    }
+
+    .dot {
+        width: 0.5em;
+        height: 0.5em;
+        border: 0.1em solid #7895E6;
+    }
+
+    .label-dot {
+        width: 1.5em;
+        height: 1.5em;
     }
 
 }
